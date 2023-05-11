@@ -1,0 +1,24 @@
+---
+version: "3.4"
+services:
+ demoweb:
+   image: nginx
+   ports:
+    - 80:80
+   volumes:
+    - /tmp:/usr/share/nginx/html
+   deploy:
+    mode: replicated
+    replicas: 2
+
+services:  
+ testweb:
+   image: ubuntu
+   ports:
+     - 8080:8080
+   volumes:
+     - /tmp:/usr/share/nginx/html
+   deploy:
+     mode: replicated
+     replicas: 2    
+      
