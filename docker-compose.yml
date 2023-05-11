@@ -9,16 +9,5 @@ services:
     - /tmp:/usr/share/nginx/html
    deploy:
     mode: replicated
-    replicas: 2
-
-services:  
- testweb:
-   image: ubuntu
-   ports:
-     - 8080:8080
-   volumes:
-     - /tmp:/usr/share/nginx/html
-   deploy:
-     mode: replicated
-     replicas: 2    
+    replicas: 2  
       
