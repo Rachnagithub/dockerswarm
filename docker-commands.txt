@@ -1,0 +1,58 @@
+yum update -y
+    2  docker node ls
+    3  vi docker-compose.yml
+    4  docker stack deploy -c docker-compose.yml web
+    5  vi docker-compose.yml
+    6  docker stack deploy -c docker-compose.yml web
+    7  vi docker-compose.yml
+    8  docker stack deploy -c docker-compose.yml web
+    9  vi docker-compose.yml
+   10  docker stack deploy -c docker-compose.yml web
+   11  docker service ps web
+   12  docker service ls
+   13  docker service rm web
+   14  docker service ls
+   15  docker stack deploy -c docker-compose.yml web
+   16  docker service ls
+   17  docker stack ls
+   18  docker service ls
+   19  docker service ps web_demoweb
+   20  docker stack rm web
+   21  docker stack ls
+   22  docker service ls
+   23  docker stack deploy -c docker-compose.yml web
+   24  docker stack ls
+   25  docker service ps web
+   26  docker service ps
+   27  docker service ls
+   28  docker service ps web_demoweb
+   29  docker stack ls
+   30  docker stack ls web
+   31  docker service ps
+   32  docker stack ls web
+   33  docker service ps web_demoweb
+   34  docker service ls
+   35  docker service os web_demoweb
+   36  docker service ps web_demoweb
+   37  docker ps
+   38  vi docker-compose.yml
+   39  docker stack deploy -c docker-compose.yml testweb
+   40  vi docker-compose.yml
+   41  docker stack deploy -c docker-compose.yml testweb
+   42  vi docker-compose.yml
+   43  docker stack deploy -c docker-compose.yml testweb
+   44  vi docker-compose.yml
+   45  docker stack deploy -c docker-compose.yml testweb
+   46  docker service ps web
+   47  docker service ls
+   48  docker service ps testweb
+   49  docker service ps testweb_testweb
+   50  docker stack rm testweb
+   51  docker service ps testweb_testweb
+   52  vi docker-compose.yml
+   53  docker stack create -c docker-compose.yml test
+   54  docker stack deploy -c docker-compose.yml test
+   55  docker service ls
+   56  docker service rm test_testweb
+   57  docker service rm web_demoweb
+
